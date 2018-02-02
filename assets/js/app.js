@@ -1,3 +1,7 @@
+$(".nav.navbar-nav a").click(function(){
+	$(".navbar-collapse.collapse").removeClass("in");
+});
+
 /*$.get("http://192.168.2.2:9081/mensuales/rest/tercero/iden/111", function(data, status){
 	console.log(data)
     //alert("Data: " + data + "\nStatus: " + status);
